@@ -1,0 +1,77 @@
+@media (max-width: 1065px){
+    .grid-container{
+        width: 90%;
+    }
+    .profile-main .profile-presentation{
+        padding: 10%;
+    }
+    .presentation-img-container{
+        text-align: center;
+    }
+    .presentation-img-container img{
+        width: 60%;
+    }
+    .pesentation-description-container{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+@media (max-width: 900px){
+    .blogs-news-container{
+        padding: 3rem;
+    }
+    .blogs-main-new{
+        display: flex;
+        flex-direction: column;
+    }
+    .blogs-news-img-container img{
+        width: 100%;
+    }
+    .post-container{
+        max-width: none;
+        width: 44%;
+    }
+    .presentation-img-container img{
+        width: 80%;
+    }
+}
+@media (max-width: 600px){
+    header{
+        grid-template-rows: 5rem 6rem;
+    }
+    header nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-body{
+        position: static;
+    }
+    .post-container{
+        width: 90%;
+    }
+    .contact-main-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-main-container > div{
+        height: 50%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .contact-main-container > div img{
+        height: 10rem;
+    }
+    .contact-main-container > div .contact-left ,
+    .contact-main-container > div .contact-right{
+        margin-top: 0px;
+    }
+    .presentation-img-container img{
+        width: 100%;
+    }
+
+}
